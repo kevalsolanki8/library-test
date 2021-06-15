@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add @kevalsolanki8/private-library@1.0.0
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add @kevalsolanki8/private-library@1.0.1
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mysql/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@kevalsolanki8%2fprivate-library: Not found
+  Error: https://npm.pkg.github.com/@kevalsolanki8%2fprivate-library: Your request could not be authenticated by the GitHub Packages service. Please ensure your access token is valid and has the appropriate scopes configured.
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
       at Request.emit (node:events:376:20)
@@ -38,7 +38,7 @@ npm manifest:
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "@kevalsolanki8/private-library": "1.0.0"
+    "dependencies": {}
   }
 
 yarn manifest: 
